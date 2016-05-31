@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<INFORMATION timestamp="05:05:42 PM, 18/Jun/2012" TotalLoc="228" TotalFiles="3" TotalSuppress="0" UserMode="BASIC (MANDATORY CONFIGURATION)" TotalTime="1656 ms">
+<ENGINE_ROUTER name="CodeReview JavaRules" id="EngineRouter">
+<Language name="WiproStyle Rules" id="Java 1.4">
+	<CATEGORY name="Portability" id="Portability">
+<SUBCATEGORY name="PortabilityRules" id="PortabilityRules#Portability">
+		<RULE name="Magic Number[WS-C025]" id="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck">
+		<RESULT name="&apos;3&apos; is a magic number." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="&apos;4&apos; is a magic number." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>41</line>
+			</RESULT>
+		<RESULT name="&apos;5&apos; is a magic number." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="&apos;4&apos; is a magic number." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>43</line>
+			</RESULT>
+		<RESULT name="&apos;3&apos; is a magic number." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>44</line>
+			</RESULT>
+		<RESULT name="&apos;2&apos; is a magic number." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>55</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Use of modifier volatile is not recommended.[WS-P066]" id="AvoidUsingVolatile">
+		</RULE>
+</SUBCATEGORY>
+	</CATEGORY>
+	<CATEGORY name="Security" id="Security">
+<SUBCATEGORY name="SecurityRules" id="SecurityRules#Security">
+		<RULE name="Avoid public static final array fields[WS-C157]" id="com.wipro.checks.mi.MIAvoidPublicStaticFinalArray">
+		</RULE>
+		<RULE name="Clone Byte Arrays[WS-C188]" id="com.wipro.checks.se.SECloneByteArrays">
+		</RULE>
+		<RULE name="Member Classes[WS-C189]" id="com.wipro.checks.se.SEPrivateMemberClass">
+		</RULE>
+		<RULE name="System.out.print is used[WS-P157]" id="SystemPrintln">
+		</RULE>
+		<RULE name="Avoid printStackTrace(); use a logger call instead.[WS-P158]" id="AvoidPrintStackTrace">
+		</RULE>
+		<RULE name="Returning &apos;&apos;{0}&apos;&apos; may expose an internal array.[WS-P224]" id="MethodReturnsInternalArray">
+		<RESULT name="Returning &apos;cities&apos; may expose an internal array.[WS-P224]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>69</line>
+			</RESULT>
+		</RULE>
+</SUBCATEGORY>
+	</CATEGORY>
+	<CATEGORY name="Others" id="Others">
+<SUBCATEGORY name="OthersRules" id="OthersRules#Others">
+		<RULE name="Checker[WS-C111]" id="com.puppycrawl.tools.checkstyle.Checker">
+		</RULE>
+		<RULE name="TreeWalker[WS-C112]" id="com.puppycrawl.tools.checkstyle.TreeWalker">
+		</RULE>
+</SUBCATEGORY>
+	</CATEGORY>
+	<CATEGORY name="Maintainability" id="Maintainability">
+<SUBCATEGORY name="Style" id="Style#">
+		<RULE name="Left Curly Brace Placement[WS-C003]" id="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck">
+		</RULE>
+		<RULE name="Right Curly Brace Placement[WS-C005]" id="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck">
+		</RULE>
+		<RULE name="Declaration Order Check[WS-C009]" id="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck">
+		</RULE>
+		<RULE name="Multiple Variable Declaration[WS-C030]" id="com.puppycrawl.tools.checkstyle.checks.coding.MultipleVariableDeclarationsCheck">
+		</RULE>
+		<RULE name="Modifier Order[WS-C072]" id="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck">
+		</RULE>
+		<RULE name="No Whitespace After[WS-C092]" id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck">
+		</RULE>
+		<RULE name="No Whitespace Before[WS-C093]" id="com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck">
+		</RULE>
+		<RULE name="Tab Character[WS-C096]" id="com.puppycrawl.tools.checkstyle.checks.whitespace.TabCharacterCheck">
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>22</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>23</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>24</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>25</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>26</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>27</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>28</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>29</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>30</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>32</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>33</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>34</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>35</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>36</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>37</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>38</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>39</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>41</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>43</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>44</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>45</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>46</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>47</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>48</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>49</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>50</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>51</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>52</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>53</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>54</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>55</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>56</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>57</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>58</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>59</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>60</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>61</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>62</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>63</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>64</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>65</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>66</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>67</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>68</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>69</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>70</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>71</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>72</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>73</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>74</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>75</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>76</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>77</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>78</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>79</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>80</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>81</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>82</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>83</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>84</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>85</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>86</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>87</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>88</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>89</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>90</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>91</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>92</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>93</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>94</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>95</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>96</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>97</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>98</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>27</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>28</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>29</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>30</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>32</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>33</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>34</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>35</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>36</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>37</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>38</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>39</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>41</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>43</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>44</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>45</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>46</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>47</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>48</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>49</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>50</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>51</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>52</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>53</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>54</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>55</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>56</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>57</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>58</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>59</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>60</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>61</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>62</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>63</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>64</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>65</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>66</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>67</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>68</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>69</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>70</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>21</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>22</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>23</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>24</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>25</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>26</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>27</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>28</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>29</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>30</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>32</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>33</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>34</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>35</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>36</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>37</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>38</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>41</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>43</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>44</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>46</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>47</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>48</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>49</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>50</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>52</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>53</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>54</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>55</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>56</line>
+			</RESULT>
+		<RESULT name="Line contains a tab character." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>57</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Indentation[WS-C102]" id="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck">
+		</RULE>
+		<RULE name="Blank Line Before SingleLineComment[WS-C128]" id="com.wipro.checks.dc.DCLineBeforeSingleLineComment">
+		<RESULT name="Single line comment should be preceeded by a blank line." severity="Minor" severityId="0">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>33</line>
+			</RESULT>
+		<RESULT name="Single line comment should be preceeded by a blank line." severity="Minor" severityId="0">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>44</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Blank Line Before BlockComment[WS-C129]" id="com.wipro.checks.dc.DCLineBeforeBlockComment">
+		</RULE>
+		<RULE name="Line Wrap for Operators[WS-C132]" id="com.wipro.checks.fm.FMLineWrap">
+		</RULE>
+		<RULE name="Use single / no space in between Method name and &apos;(&apos;[WS-C133]" id="com.wipro.checks.fm.FMMethodSpace">
+		<RESULT name="Method &apos;Hotel&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="Method &apos;Hotel&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Method &apos;getAddress&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>53</line>
+			</RESULT>
+		<RESULT name="Method &apos;setAddress&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>59</line>
+			</RESULT>
+		<RESULT name="Method &apos;getCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>65</line>
+			</RESULT>
+		<RESULT name="Method &apos;setCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>71</line>
+			</RESULT>
+		<RESULT name="Method &apos;getName&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>77</line>
+			</RESULT>
+		<RESULT name="Method &apos;setName&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>83</line>
+			</RESULT>
+		<RESULT name="Method &apos;getStars&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>89</line>
+			</RESULT>
+		<RESULT name="Method &apos;setStars&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>95</line>
+			</RESULT>
+		<RESULT name="Method &apos;findHotelsByCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>52</line>
+			</RESULT>
+		<RESULT name="Method &apos;findAvailableCities&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>68</line>
+			</RESULT>
+		<RESULT name="Method &apos;testFindHotelsByCity1&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>22</line>
+			</RESULT>
+		<RESULT name="Method &apos;testFindHotelsByCity2&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="Method &apos;testFindHotelsByEmptyCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="Method &apos;testFindHotelsByNullCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>46</line>
+			</RESULT>
+		<RESULT name="Method &apos;testFindAvaliableCities&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>52</line>
+			</RESULT>
+		</RULE>
+		<RULE name="WhiteSpace Around Check[WS-C135]" id="com.wipro.checks.fm.FMWhitespaceAfterBeforeCheck">
+		</RULE>
+		<RULE name="Public Object Organization[WS-C136]" id="com.wipro.checks.fo.FOPublicObjectOrganization">
+		</RULE>
+		<RULE name="Blank Lines[WS-C137]" id="com.wipro.checks.fo.FOBlankLines">
+		<RESULT name="There should be 2 blank line(s) before package definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>12</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before Class definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>14</line>
+			</RESULT>
+		<RESULT name="There should be 1 blank line(s) before Variable/ initializer definition, currently 0." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>22</line>
+			</RESULT>
+		<RESULT name="There should be 1 blank line(s) before Method / Constructor definition, currently 2." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>28</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before package definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>12</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before import definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>14</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before Class definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>19</line>
+			</RESULT>
+		<RESULT name="There should be 0 blank line(s) before Variable/ initializer definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>36</line>
+			</RESULT>
+		<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>64</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before package definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>12</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before import definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>14</line>
+			</RESULT>
+		<RESULT name="There should be 2 blank line(s) before Class definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>20</line>
+			</RESULT>
+		<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>46</line>
+			</RESULT>
+		<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>52</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Simple Statements[WS-C196]" id="com.wipro.checks.ss.SSSimpleStatements">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Size" id="Size#">
+		<RULE name="Maximum File Length[WS-C086]" id="com.puppycrawl.tools.checkstyle.checks.sizes.FileLengthCheck">
+		</RULE>
+		<RULE name="Maximum Line Length[WS-C087]" id="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck">
+		</RULE>
+		<RULE name="Avoid nested inner classes[WS-C169]" id="com.wipro.checks.oo.OOAvoidMultipleInnerClass">
+		</RULE>
+		<RULE name="This class has a bunch of public methods and attributes[WS-P046]" id="ExcessivePublicCount">
+		</RULE>
+		<RULE name="Deeply nested if..then statements are hard to read[WS-P077]" id="AvoidDeeplyNestedIfStmts">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Documentation" id="Documentation#">
+		<RULE name="Regular Expression Header[WS-C053]" id="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck">
+		<RESULT name="Line does not match expected header line of &apos;\A/\*&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>1</line>
+			</RESULT>
+		<RESULT name="Line does not match expected header line of &apos;\A/\*&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>1</line>
+			</RESULT>
+		<RESULT name="Line does not match expected header line of &apos;\A/\*&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>1</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Method Javadoc[WS-C061]" id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck">
+		<RESULT name="Expected @param tag for &apos;name&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Expected @param tag for &apos;address&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Expected @param tag for &apos;city&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Expected @param tag for &apos;stars&apos;." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Missing a Javadoc comment." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>22</line>
+			</RESULT>
+		<RESULT name="Missing a Javadoc comment." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>31</line>
+			</RESULT>
+		<RESULT name="Missing a Javadoc comment." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>40</line>
+			</RESULT>
+		<RESULT name="Missing a Javadoc comment." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>46</line>
+			</RESULT>
+		<RESULT name="Missing a Javadoc comment." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>52</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Type Javadoc[WS-C063]" id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck">
+		<RESULT name="Type Javadoc comment is missing an @version tag." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>21</line>
+			</RESULT>
+		<RESULT name="Type Javadoc comment is missing an @version tag." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>25</line>
+			</RESULT>
+		<RESULT name="Missing a Javadoc comment." severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>20</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Variable Javadoc[WS-C064]" id="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Stability" id="Stability#">
+		<RULE name="J2EE_Implement EjbCreate Method[WS-C131]" id="com.wipro.checks.eb.EBEjbCreateMethod">
+		</RULE>
+		<RULE name="J2EE_Entity Bean[WS-C210]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.EntityBeanCheck">
+		</RULE>
+		<RULE name="J2EE_Local Home Interface[WS-C212]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.LocalHomeInterfaceCheck">
+		</RULE>
+		<RULE name="J2EE_Local Interface[WS-C213]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.LocalInterfaceCheck">
+		</RULE>
+		<RULE name="J2EE_Message Bean[WS-C214]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.MessageBeanCheck">
+		</RULE>
+		<RULE name="J2EE_Remote Home Interface[WS-C215]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.RemoteHomeInterfaceCheck">
+		</RULE>
+		<RULE name="J2EE_Remote Interface[WS-C216]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.RemoteInterfaceCheck">
+		</RULE>
+		<RULE name="J2EE_Session Bean[WS-C217]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.SessionBeanCheck">
+		</RULE>
+		<RULE name="A class which only has private constructors should be final[WS-P115]" id="ClassWithOnlyPrivateConstructorsShouldBeFinal">
+		</RULE>
+		<RULE name="EJB&apos;s shouldn&apos;t have non-final static fields[WS-P139]" id="StaticEJBFieldShouldBeFinal">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Naming Convention" id="Naming Convention#">
+		<RULE name="Constant Names[WS-C075]" id="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck">
+		</RULE>
+		<RULE name="Local Variable Names[WS-C077]" id="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck">
+		</RULE>
+		<RULE name="Member Names[WS-C078]" id="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck">
+		</RULE>
+		<RULE name="Method Names[WS-C079]" id="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck">
+		</RULE>
+		<RULE name="Package Names[WS-C080]" id="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck">
+		</RULE>
+		<RULE name="Parameter Names[WS-C081]" id="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck">
+		</RULE>
+		<RULE name="Static Variable Names[WS-C082]" id="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck">
+		</RULE>
+		<RULE name="Type Names[WS-C083]" id="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck">
+		</RULE>
+		<RULE name="Class extending or Implementing other Class[WS-C160]" id="com.wipro.checks.nc.NCClassExtendsOrImplementsClass">
+		</RULE>
+		<RULE name="Annotation/Enum Names[WS-C161]" id="com.wipro.checks.nc.NCAnnotationEnum">
+		</RULE>
+		<RULE name="Getter / Setter Methods[WS-C162]" id="com.wipro.checks.nc.NCGetterSetter">
+		<RESULT name=" The getter method name should be one of the following names -  getCities, setCities" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>68</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Boolean Method[WS-C163]" id="com.wipro.checks.nc.NCBooleanMethod">
+		</RULE>
+		<RULE name="Collection Variables[WS-C164]" id="com.wipro.checks.nc.NCCollectionVariables">
+		</RULE>
+		<RULE name="Final Static Fields[WS-C165]" id="com.wipro.checks.nc.NCFinalStaticConstants">
+		<RESULT name="&apos;cities&apos; should be declared as Final Static as its value remains constant" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>30</line>
+			</RESULT>
+		<RESULT name="&apos;hotels&apos; should be declared as Final Static as its value remains constant" severity="Critical" severityId="2">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>39</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Components[WS-C166]" id="com.wipro.checks.nc.NCComponents">
+		</RULE>
+		<RULE name="Loop Counters[WS-C167]" id="com.wipro.checks.nc.NCLoopCounters">
+		</RULE>
+		<RULE name="Illegal Packages[WS-C168]" id="com.wipro.checks.nc.NCIllegalPackage">
+		</RULE>
+		<RULE name="Do not start a literal by 0 unless it&apos;s an octal value[WS-P030]" id="AvoidUsingOctalValues">
+		</RULE>
+		<RULE name="SessionBean or MessageBean should be suffixed by Bean[WS-P133]" id="MDBAndSessionBeanNamingConvention">
+		</RULE>
+		<RULE name="Remote Home interface of a Session EJB should be suffixed by &apos;Home&apos;[WS-P134]" id="RemoteSessionInterfaceNamingConvention">
+		</RULE>
+		<RULE name="The Local Interface of a Session EJB should be suffixed by &apos;Local&apos;[WS-P135]" id="LocalInterfaceSessionNamingConvention">
+		</RULE>
+		<RULE name="The Local Home interface of a Session EJB should be suffixed by &apos;LocalHome&apos;[WS-P136]" id="LocalHomeNamingConvention">
+		</RULE>
+		<RULE name="Remote Interface of a Session EJB should NOT be suffixed[WS-P137]" id="RemoteInterfaceNamingConvention">
+		</RULE>
+		<RULE name="Avoid variables with short names like {0}[WS-P173]" id="ShortVariable">
+		</RULE>
+		<RULE name="Avoid excessively long variable names like {0}[WS-P174]" id="LongVariable">
+		</RULE>
+		<RULE name="Avoid using short method names[WS-P175]" id="ShortMethodName">
+		</RULE>
+		<RULE name="Classes should not have non-constructor methods with the same name as the class[WS-P181]" id="MethodWithSameNameAsEnclosingClass">
+		</RULE>
+		<RULE name="The method name and return type are suspiciously close to hashCode()[WS-P182]" id="SuspiciousHashcodeMethodName">
+		</RULE>
+		<RULE name="The field name indicates a constant but its modifiers do not[WS-P183]" id="SuspiciousConstantFieldName">
+		</RULE>
+		<RULE name="The method name and parameter number are suspiciously close to equals(Object)[WS-P184]" id="SuspiciousEqualsMethodName">
+		</RULE>
+		<RULE name="It is somewhat confusing to have a field name matching the declaring class name[WS-P185]" id="AvoidFieldNameMatchingTypeName">
+		</RULE>
+		<RULE name="It is somewhat confusing to have a field name with the same name as a method[WS-P186]" id="AvoidFieldNameMatchingMethodName">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Clarity" id="Clarity#">
+		<RULE name="Hidden Field[WS-C016]" id="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck">
+		</RULE>
+		<RULE name="Inner Assignment[WS-C023]" id="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck">
+		</RULE>
+		<RULE name="Package Declaration[WS-C033]" id="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck">
+		</RULE>
+		<RULE name="Visibility Modifier[WS-C051]" id="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck">
+		</RULE>
+		<RULE name="Upper Ell[WS-C109]" id="com.puppycrawl.tools.checkstyle.checks.UpperEllCheck">
+		</RULE>
+		<RULE name="Use clone() in Cloneable class[WS-C116]" id="com.wipro.checks.cc.CCDeclareCloneMethodInCloneableClass">
+		</RULE>
+		<RULE name="Avoid Package Private Classes[WS-C141]" id="com.wipro.checks.gs.GSAvoidPackagePrivateClasses">
+		</RULE>
+		<RULE name="Avoid Package Private Fields and Methods[WS-C142]" id="com.wipro.checks.gs.GSAvoidPackagePrivateFieldsAndMethods">
+		</RULE>
+		<RULE name="Anonymous Classes[WS-C147]" id="com.wipro.checks.me.MEAvoidAnonymousClasses">
+		</RULE>
+		<RULE name="Avoid public constructors in non-public class[WS-C156]" id="com.wipro.checks.mi.MIAvoidPublicConstructorInNonPublicClass">
+		</RULE>
+		<RULE name="Redeclare Non Functional Class As Interface[WS-C159]" id="com.wipro.checks.mi.MIRedeclareNonFunctionalClassAsInterface">
+		</RULE>
+		<RULE name="Avoid Constant Conditional Expressions[WS-C177]" id="com.wipro.checks.pb.PBAvoidConstantConditionalExpr">
+		</RULE>
+		<RULE name="Avoid empty &apos;synchronized statements&apos;[WS-C204]" id="com.wipro.checks.uc.UCAvoidEmptySynchronizedStatements">
+		</RULE>
+		<RULE name="Avoid empty &apos;finalize methods&apos;[WS-C205]" id="com.wipro.checks.uc.UCAvoidEmptyFinalizeMethods">
+		</RULE>
+</SUBCATEGORY>
+	</CATEGORY>
+	<CATEGORY name="Reliability" id="Reliability">
+<SUBCATEGORY name="Data-Handling Problems" id="Data-Handling Problems#Reliability">
+		<RULE name="Modified Control Variable[WS-C028]" id="com.puppycrawl.tools.checkstyle.checks.coding.ModifiedControlVariableCheck">
+		</RULE>
+		<RULE name="Avoid Out Of Range Char Comparisons[WS-C176]" id="com.wipro.checks.pb.PBCharRange">
+		</RULE>
+		<RULE name="Avoid assigning For loop variables in body[WS-C181]" id="com.wipro.checks.pb.PBAvoidAssigningForLoopControlVariablesInBody">
+		</RULE>
+		<RULE name="Local Variable Initialization[WS-C194]" id="com.wipro.checks.ss.SSLocalVariableInitialization">
+		</RULE>
+		<RULE name="Private field &apos;&apos;{0}&apos;&apos; could be made final; it is only initialized in the declaration or constructor.[WS-P094]" id="ImmutableField">
+		</RULE>
+		<RULE name="Possible unsafe assignment to a non-final static field in a constructor.[WS-P097]" id="AssignmentToNonFinalStatic">
+		</RULE>
+		<RULE name="Local variable &apos;&apos;{0}&apos;&apos; could be declared final[WS-P191]" id="LocalVariableCouldBeFinal">
+		<RESULT name="Local variable &apos;hotelsFound&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>53</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>23</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>24</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>32</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>33</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>41</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>47</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>48</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>53</line>
+			</RESULT>
+		<RESULT name="Local variable &apos;cities&apos; could be declared final[WS-P191]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>54</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Parameter &apos;&apos;{0}&apos;&apos; is not assigned and could be declared final[WS-P192]" id="MethodArgumentCouldBeFinal">
+		<RESULT name="Parameter &apos;address&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;stars&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;name&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;city&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>42</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;address&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>59</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;city&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>71</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;name&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>83</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;stars&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java</file>
+			<line>95</line>
+			</RESULT>
+		<RESULT name="Parameter &apos;city&apos; is not assigned and could be declared final[WS-P192]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>52</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Do not instantiate a StringBuffer with a char[WS-P221]" id="StringBufferInstantiationWithChar">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Concurrency and Timing Problems" id="Concurrency and Timing Problems#Reliability">
+		<RULE name="Assign Protected accesibility to readResolve and writeReplace methods of Serializable classes[WS-C184]" id="com.wipro.checks.pb.PBAssignProtectedSerializable">
+		</RULE>
+		<RULE name="J2EE_Do not implement &apos;SingleThreadModel&apos; interface[WS-C191]" id="com.wipro.checks.sl.SLAvoidSingleThreadModelInterface">
+		</RULE>
+		<RULE name="J2EE_Minimize Synchronization[WS-C192]" id="com.wipro.checks.sl.SLMinimizeSynchronization">
+		</RULE>
+		<RULE name="Use No-Argument Constructor[WS-C197]" id="com.wipro.checks.sz.SZUseNoArgumentConstructor">
+		</RULE>
+		<RULE name="Invoke thread methods from Synchronized Methods/Blocks[WS-C198]" id="com.wipro.checks.th.THUseSynchronizationForMethodInvokation">
+		</RULE>
+		<RULE name="Call wait() inside while or do-while[WS-C199]" id="com.wipro.checks.th.THUseWhileOrDoWhileToInvokeWait">
+		</RULE>
+		<RULE name="Implement run() method[WS-C200]" id="com.wipro.checks.th.THImplementRunMethod">
+		</RULE>
+		<RULE name="Avoid using ThreadGroup; it is not thread safe[WS-P027]" id="AvoidThreadGroup">
+		</RULE>
+		<RULE name="Use block level rather than method level synchronization[WS-P099]" id="AvoidSynchronizedAtMethodLevel">
+		</RULE>
+		<RULE name="Call Thread.notifyAll() rather than Thread.notify()[WS-P101]" id="UseNotifyAllInsteadOfNotify">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Logic Problems" id="Logic Problems#Reliability">
+		<RULE name="Need Braces[WS-C004]" id="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck">
+		</RULE>
+		<RULE name="Missing Switch Default[WS-C027]" id="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck">
+		</RULE>
+		<RULE name="A non-case label was present in a switch statement[WS-P086]" id="NonCaseLabelInSwitchStatement">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Failure Liability" id="Failure Liability#Reliability">
+		<RULE name="Covariant Equals[WS-C007]" id="com.puppycrawl.tools.checkstyle.checks.coding.CovariantEqualsCheck">
+		</RULE>
+		<RULE name="SuperFinalize[WS-C042]" id="com.puppycrawl.tools.checkstyle.checks.coding.SuperFinalizeCheck">
+		</RULE>
+		<RULE name="Placement of Constants[WS-C114]" id="com.wipro.checks.cc.CCComparisonExpression">
+		</RULE>
+		<RULE name="Avoid Multiple Overload Methods[WS-C118]" id="com.wipro.checks.cc.CCAvoidMultipleOverloadMethods">
+		</RULE>
+		<RULE name="Finalize Method[WS-C139]" id="com.wipro.checks.gc.GCFinalize">
+		</RULE>
+		<RULE name="Serializable Class[WS-C150]" id="com.wipro.checks.mi.MISerialVersionUid">
+		</RULE>
+		<RULE name="Main Method[WS-C175]" id="com.wipro.checks.pb.PBMain">
+		</RULE>
+		<RULE name="Avoid overloaded finalize methods[WS-C186]" id="com.wipro.checks.pb.PBAvoidOverloadedFinalize">
+		</RULE>
+		<RULE name="J2EE_Servlet Constructor[WS-C190]" id="com.wipro.checks.sl.SLServletConstructor">
+		</RULE>
+		<RULE name="J2EE_This Parameter[WS-C218]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.ThisParameterCheck">
+		</RULE>
+		<RULE name="J2EE_This Return[WS-C219]" id="com.puppycrawl.tools.checkstyle.checks.j2ee.ThisReturnCheck">
+		</RULE>
+		<RULE name="An operation on an Immutable object (BigDecimal or BigInteger) won&apos;t change the object itself[WS-P024]" id="UselessOperationOnImmutable">
+		</RULE>
+		<RULE name="The null check here is misplaced; if the variable is null there&apos;ll be a NullPointerException[WS-P025]" id="MisplacedNullCheck">
+		</RULE>
+		<RULE name="Method call on object which may be null[WS-P028]" id="BrokenNullCheck">
+		</RULE>
+		<RULE name="Using multiple unary operators may be a bug, and/or is confusing.[WS-P033]" id="AvoidMultipleUnaryOperators">
+		</RULE>
+		<RULE name="Assigning an Object to null is a code smell.  Consider refactoring.[WS-P053]" id="NullAssignment">
+		</RULE>
+		<RULE name="Position literals first in String comparisons[WS-P106]" id="PositionLiteralsFirstInComparisons">
+		</RULE>
+		<RULE name="System.exit() should not be used in J2EE/JEE apps[WS-P138]" id="DoNotCallSystemExit">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Exception Handling" id="Exception Handling#Reliability">
+		<RULE name="Illegal Throws[WS-C019]" id="com.puppycrawl.tools.checkstyle.checks.coding.IllegalThrowsCheck">
+		</RULE>
+		<RULE name="Clone method throws CloneNotSupportedException[WS-C120]" id="com.wipro.checks.cc.CCCloneNotSupportedException">
+		</RULE>
+		<RULE name="J2EE_Finder Method[WS-C130]" id="com.wipro.checks.eb.EBEjbFinderMethod">
+		</RULE>
+		<RULE name="Return zero length arrays instead of null[WS-C152]" id="com.wipro.checks.mi.MIReturnZeroLengthArrays">
+		</RULE>
+		<RULE name="Avoid Return In Finally[WS-C174]" id="com.wipro.checks.pb.PBAvoidReturnInFinally">
+		</RULE>
+		<RULE name="Use caught exception in catch block[WS-C206]" id="com.wipro.checks.uc.UCUseCaughtExceptionsInCatchBlock">
+		</RULE>
+		<RULE name="This usage of the Collection.toArray() method will throw a ClassCastException.[WS-P022]" id="ClassCastExceptionWithToArray">
+		</RULE>
+		<RULE name="Caught exception is rethrown, original stack trace may be lost[WS-P113]" id="PreserveStackTrace">
+		</RULE>
+		<RULE name="A catch statement should never catch throwable since it includes errors.[WS-P201]" id="AvoidCatchingThrowable">
+		</RULE>
+		<RULE name="Avoid throwing raw exception types.[WS-P205]" id="AvoidThrowingRawExceptionTypes">
+		</RULE>
+		<RULE name="A throw statement in a finally block makes the control flow hard to understand.[WS-P209]" id="DoNotThrowExceptionInFinally">
+		</RULE>
+</SUBCATEGORY>
+	</CATEGORY>
+	<CATEGORY name="Efficiency" id="Efficiency">
+<SUBCATEGORY name="Performance" id="Performance#">
+		<RULE name="Empty Block[WS-C002]" id="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck">
+		</RULE>
+		<RULE name="Avoid Local DataSource[WS-C127]" id="com.wipro.checks.db.DBAvoidLocalDataSource">
+		</RULE>
+		<RULE name="Avoid Excessive Field Access[WS-C146]" id="com.wipro.checks.me.MEAvoidExcessiveFieldAccess">
+		</RULE>
+		<RULE name="Avoid Array Length in Loop[WS-C148]" id="com.wipro.checks.me.MEAvoidArrayLengthInLoop">
+		</RULE>
+		<RULE name="Avoid setSize Method[WS-C179]" id="com.wipro.checks.pb.PBAvoidSetSizeMethod">
+		</RULE>
+		<RULE name="Use bitwise inversion to invert boolean values[WS-P063]" id="BooleanInversion">
+		</RULE>
+		<RULE name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" id="UseCollectionIsEmpty">
+		<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>25</line>
+			</RESULT>
+		<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>34</line>
+			</RESULT>
+		<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>43</line>
+			</RESULT>
+		<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" severityId="1">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java</file>
+			<line>49</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Avoid instantiating new objects inside loops[WS-P193]" id="AvoidInstantiatingObjectsInLoops">
+		</RULE>
+		<RULE name="System.arraycopy is more efficient[WS-P198]" id="AvoidArrayLoops">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Resource  utilization" id="Resource  utilization#">
+		<RULE name="Event Listener Methods Removal in Finalize[WS-C138]" id="com.wipro.checks.gc.GCAvoidFinalizeToRemoveListeners">
+		</RULE>
+		<RULE name="Reset ObjectOutputStreams[WS-C140]" id="com.wipro.checks.gc.GCResetObjectOutputStream">
+		</RULE>
+		<RULE name="Return Parameters[WS-C149]" id="com.wipro.checks.me.MEReturnParameter">
+		<RESULT name="Method &apos;findHotelsByCity&apos; could use a return parameter instead of returning a new &apos;hotelsFound&apos; object" severity="Minor" severityId="0">
+			<file>G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java</file>
+			<line>52</line>
+			</RESULT>
+		</RULE>
+		<RULE name="Close Connections and I/O resources[WS-C170]" id="com.wipro.checks.op.OPCloseIOConnection">
+		</RULE>
+		<RULE name="StringBuffer objects[WS-C171]" id="com.wipro.checks.op.OPUnusedStringBufferObject">
+		</RULE>
+		<RULE name="Avoid getClass() Instantiations[WS-C172]" id="com.wipro.checks.op.OPAvoidgetClassInstantiation">
+		</RULE>
+		<RULE name="Avoid un-used loop variables[WS-C182]" id="com.wipro.checks.pb.PBAvoidUnusedLoopVariables">
+		</RULE>
+		<RULE name="Avoid unused private fields[WS-C202]" id="com.wipro.checks.uc.UCAvoidUnusedPrivateFields">
+		</RULE>
+		<RULE name="Avoid unused private classes[WS-C203]" id="com.wipro.checks.uc.UCAvoidUnusedPrivateClasses">
+		</RULE>
+		<RULE name="Unused Local_Param Variables[WS-C207]" id="com.wipro.checks.uc.UCUnusedLocalAndParamVariables">
+		</RULE>
+		<RULE name="UnRead Assign Local Variables[WS-C208]" id="com.wipro.checks.uc.UCUnReadLocalAssignVariable">
+		</RULE>
+		<RULE name="Avoid unnecessary temporaries when converting primitives to Strings[WS-P009]" id="UnnecessaryConversionTemporary">
+		</RULE>
+		<RULE name="Avoid creating BigDecimal with a decimal (float/double) literal. Use a String literal[WS-P023]" id="AvoidDecimalLiteralsInBigDecimalConstructor">
+		</RULE>
+		<RULE name="Do not use the short type[WS-P065]" id="AvoidUsingShortType">
+		</RULE>
+		<RULE name="Avoid instantiating Integer objects. Call Integer.valueOf() instead.[WS-P164]" id="IntegerInstantiation">
+		</RULE>
+		<RULE name="Avoid instantiating Byte objects. Call Byte.valueOf() instead[WS-P165]" id="ByteInstantiation">
+		</RULE>
+		<RULE name="Avoid instantiating Long objects.Call Long.valueOf() instead[WS-P167]" id="LongInstantiation">
+		</RULE>
+		<RULE name="Unnecessary wrapper object creation[WS-P199]" id="UnnecessaryWrapperObjectCreation">
+		</RULE>
+</SUBCATEGORY>
+<SUBCATEGORY name="Redundancy" id="Redundancy#">
+		<RULE name="Avoid Star (Demand) Imports[WS-C054]" id="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck">
+		</RULE>
+		<RULE name="Unused Imports[WS-C058]" id="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck">
+		</RULE>
+		<RULE name="Redundant Modifier[WS-C073]" id="com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck">
+		</RULE>
+		<RULE name="This for loop could be simplified to a while loop[WS-P008]" id="ForLoopShouldBeWhileLoop">
+		</RULE>
+		<RULE name="Avoid idempotent operations (like assigning a variable to itself).[WS-P092]" id="IdempotentOperations">
+		</RULE>
+		<RULE name="Class cannot be instantiated and does not provide any static methods or fields[WS-P098]" id="MissingStaticMethodInNonInstantiatableClass">
+		</RULE>
+		<RULE name="Finalize should do something besides just calling super.finalize()[WS-P122]" id="FinalizeOnlyCallsSuperFinalize">
+		</RULE>
+		<RULE name="Avoid importing anything from the package &apos;java.lang&apos;[WS-P128]" id="DontImportJavaLang">
+		</RULE>
+		<RULE name="Too many static imports may lead to messy code[WS-P131]" id="TooManyStaticImports">
+		</RULE>
+</SUBCATEGORY>
+	</CATEGORY>
+</Language>
+<Language name="WiproSecure Rules" id="Java 1.5">
+</Language>
+<Language name="Findbug Rules" id="findbugs">
+</Language>
+</ENGINE_ROUTER>
+</INFORMATION>

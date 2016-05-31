@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.javaworld.hotels</groupId>
+  <version>1.0-SNAPSHOT</version>
+  <artifactId>Hotel</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>HotelDatabase</module>
+    <module>HotelWebapp</module>
+  </modules>
+<scm> <connection>scm:svn:http://localhost:84/svn/junit-sample</connection>
+ <developerConnection>scm:svn:http://localhost:84/svn/junit-sample</developerConnection>
+ </scm> 
+<build> 
+ <plugins> <plugin>
+ <groupId>org.apache.maven.plugins</groupId> 
+<artifactId>maven-scm-plugin</artifactId> 
+<version>1.5</version> <configuration>
+ <goals>install</goals> 
+</configuration> 
+</plugin>
+<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.5</source>
+                <target>1.5</target>
+            </configuration>
+         </plugin> 
+<plugin>
+<groupId>org.apache.maven.plugins</groupId> 
+<artifactId>maven-antrun-plugin</artifactId>
+<dependencies>
+<dependency>
+<groupId>ant</groupId> 
+<artifactId>ant-antlr</artifactId> 
+<version>1.6.5</version>
+</dependency> 
+</dependencies> 
+<configuration> 
+<tasks>
+
+<exec executable="cmd">
+<arg value="/c"/>
+
+<arg value="E:/UatOfWs/CLI_WiproStyle/WS_CLI_2012/bin/ws.bat -srcPath G:/Maven_Eclipse/application -configFile E:/UatOfWs/CLI_WiproStyle/WS_CLI_2012/CSWS.xml"/>
+
+<arg value="-p"/>
+</exec> 
+</tasks> 
+</configuration> 
+<executions> 
+<execution> 
+
+<phase>install</phase> 
+<goals> 
+<goal>run</goal> 
+</goals> 
+</execution> 
+</executions> 
+</plugin>         
+ </plugins>
+
+ </build> 
+</project>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FILES timestamp="05:05:42 PM, 18/Jun/2012" TotalLoc="228" TotalFiles="3" TotalSuppress="0" TotalRulesEnabled="179" UserMode="BASIC" TotalTime="1656">
+<FILE name="G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\model\HotelModel.java">
+<RESULT name="&apos;3&apos; is a magic number." severity="Major" ruleId="[WS-C025]" line="40"/>
+<RESULT name="&apos;4&apos; is a magic number." severity="Major" ruleId="[WS-C025]" line="41"/>
+<RESULT name="&apos;5&apos; is a magic number." severity="Major" ruleId="[WS-C025]" line="42"/>
+<RESULT name="&apos;4&apos; is a magic number." severity="Major" ruleId="[WS-C025]" line="43"/>
+<RESULT name="&apos;3&apos; is a magic number." severity="Major" ruleId="[WS-C025]" line="44"/>
+<RESULT name="Returning &apos;cities&apos; may expose an internal array.[WS-P224]" severity="Major" ruleId="[WS-P224]" line="69"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="27"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="28"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="29"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="30"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="31"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="32"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="33"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="34"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="35"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="36"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="37"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="38"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="39"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="40"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="41"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="42"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="43"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="44"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="45"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="46"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="47"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="48"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="49"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="50"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="51"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="52"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="53"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="54"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="55"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="56"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="57"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="58"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="59"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="60"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="61"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="62"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="63"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="64"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="65"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="66"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="67"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="68"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="69"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="70"/>
+<RESULT name="Method &apos;findHotelsByCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="52"/>
+<RESULT name="Method &apos;findAvailableCities&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="68"/>
+<RESULT name="There should be 2 blank line(s) before package definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="12"/>
+<RESULT name="There should be 2 blank line(s) before import definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="14"/>
+<RESULT name="There should be 2 blank line(s) before Class definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="19"/>
+<RESULT name="There should be 0 blank line(s) before Variable/ initializer definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="36"/>
+<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="64"/>
+<RESULT name="Line does not match expected header line of &apos;\A/\*&apos;." severity="Major" ruleId="[WS-C053]" line="1"/>
+<RESULT name="Type Javadoc comment is missing an @version tag." severity="Major" ruleId="[WS-C063]" line="25"/>
+<RESULT name=" The getter method name should be one of the following names -  getCities, setCities" severity="Critical" ruleId="[WS-C162]" line="68"/>
+<RESULT name="&apos;cities&apos; should be declared as Final Static as its value remains constant" severity="Critical" ruleId="[WS-C165]" line="30"/>
+<RESULT name="&apos;hotels&apos; should be declared as Final Static as its value remains constant" severity="Critical" ruleId="[WS-C165]" line="39"/>
+<RESULT name="Local variable &apos;hotelsFound&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="53"/>
+<RESULT name="Parameter &apos;city&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="52"/>
+<RESULT name="Method &apos;findHotelsByCity&apos; could use a return parameter instead of returning a new &apos;hotelsFound&apos; object" severity="Minor" ruleId="[WS-C149]" line="52"/>
+
+</FILE>
+<FILE name="G:\Maven_Eclipse\application\HotelDatabase\src\test\java\com\javaworld\hotels\model\HotelModelTest.java">
+<RESULT name="&apos;2&apos; is a magic number." severity="Major" ruleId="[WS-C025]" line="55"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="21"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="22"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="23"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="24"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="25"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="26"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="27"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="28"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="29"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="30"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="31"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="32"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="33"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="34"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="35"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="36"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="37"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="38"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="40"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="41"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="42"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="43"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="44"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="46"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="47"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="48"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="49"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="50"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="52"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="53"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="54"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="55"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="56"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="57"/>
+<RESULT name="Method &apos;testFindHotelsByCity1&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="22"/>
+<RESULT name="Method &apos;testFindHotelsByCity2&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="31"/>
+<RESULT name="Method &apos;testFindHotelsByEmptyCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="40"/>
+<RESULT name="Method &apos;testFindHotelsByNullCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="46"/>
+<RESULT name="Method &apos;testFindAvaliableCities&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="52"/>
+<RESULT name="There should be 2 blank line(s) before package definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="12"/>
+<RESULT name="There should be 2 blank line(s) before import definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="14"/>
+<RESULT name="There should be 2 blank line(s) before Class definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="20"/>
+<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="31"/>
+<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="40"/>
+<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="46"/>
+<RESULT name="There should be 0 blank line(s) before Method / Constructor definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="52"/>
+<RESULT name="Line does not match expected header line of &apos;\A/\*&apos;." severity="Major" ruleId="[WS-C053]" line="1"/>
+<RESULT name="Missing a Javadoc comment." severity="Major" ruleId="[WS-C061]" line="22"/>
+<RESULT name="Missing a Javadoc comment." severity="Major" ruleId="[WS-C061]" line="31"/>
+<RESULT name="Missing a Javadoc comment." severity="Major" ruleId="[WS-C061]" line="40"/>
+<RESULT name="Missing a Javadoc comment." severity="Major" ruleId="[WS-C061]" line="46"/>
+<RESULT name="Missing a Javadoc comment." severity="Major" ruleId="[WS-C061]" line="52"/>
+<RESULT name="Missing a Javadoc comment." severity="Major" ruleId="[WS-C063]" line="20"/>
+<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="23"/>
+<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="24"/>
+<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="32"/>
+<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="33"/>
+<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="41"/>
+<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="42"/>
+<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="47"/>
+<RESULT name="Local variable &apos;hotels&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="48"/>
+<RESULT name="Local variable &apos;finder&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="53"/>
+<RESULT name="Local variable &apos;cities&apos; could be declared final[WS-P191]" severity="Major" ruleId="[WS-P191]" line="54"/>
+<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" ruleId="[WS-P114]" line="25"/>
+<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" ruleId="[WS-P114]" line="34"/>
+<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" ruleId="[WS-P114]" line="43"/>
+<RESULT name="Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()[WS-P114]" severity="Major" ruleId="[WS-P114]" line="49"/>
+
+</FILE>
+<FILE name="G:\Maven_Eclipse\application\HotelDatabase\src\main\java\com\javaworld\hotels\businessobjects\Hotel.java">
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="22"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="23"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="24"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="25"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="26"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="27"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="28"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="29"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="30"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="31"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="32"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="33"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="34"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="35"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="36"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="37"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="38"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="39"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="40"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="41"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="42"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="43"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="44"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="45"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="46"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="47"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="48"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="49"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="50"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="51"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="52"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="53"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="54"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="55"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="56"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="57"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="58"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="59"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="60"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="61"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="62"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="63"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="64"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="65"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="66"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="67"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="68"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="69"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="70"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="71"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="72"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="73"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="74"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="75"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="76"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="77"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="78"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="79"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="80"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="81"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="82"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="83"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="84"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="85"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="86"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="87"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="88"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="89"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="90"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="91"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="92"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="93"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="94"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="95"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="96"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="97"/>
+<RESULT name="Line contains a tab character." severity="Major" ruleId="[WS-C096]" line="98"/>
+<RESULT name="Single line comment should be preceeded by a blank line." severity="Minor" ruleId="[WS-C128]" line="33"/>
+<RESULT name="Single line comment should be preceeded by a blank line." severity="Minor" ruleId="[WS-C128]" line="44"/>
+<RESULT name="Method &apos;Hotel&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="31"/>
+<RESULT name="Method &apos;Hotel&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="42"/>
+<RESULT name="Method &apos;getAddress&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="53"/>
+<RESULT name="Method &apos;setAddress&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="59"/>
+<RESULT name="Method &apos;getCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="65"/>
+<RESULT name="Method &apos;setCity&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="71"/>
+<RESULT name="Method &apos;getName&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="77"/>
+<RESULT name="Method &apos;setName&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="83"/>
+<RESULT name="Method &apos;getStars&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="89"/>
+<RESULT name="Method &apos;setStars&apos; does not have &apos;1&apos; whitespaces between name and &apos;(&apos;" severity="Critical" ruleId="[WS-C133]" line="95"/>
+<RESULT name="There should be 2 blank line(s) before package definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="12"/>
+<RESULT name="There should be 2 blank line(s) before Class definition, currently 1." severity="Critical" ruleId="[WS-C137]" line="14"/>
+<RESULT name="There should be 1 blank line(s) before Variable/ initializer definition, currently 0." severity="Critical" ruleId="[WS-C137]" line="22"/>
+<RESULT name="There should be 1 blank line(s) before Method / Constructor definition, currently 2." severity="Critical" ruleId="[WS-C137]" line="28"/>
+<RESULT name="Line does not match expected header line of &apos;\A/\*&apos;." severity="Major" ruleId="[WS-C053]" line="1"/>
+<RESULT name="Expected @param tag for &apos;name&apos;." severity="Major" ruleId="[WS-C061]" line="42"/>
+<RESULT name="Expected @param tag for &apos;address&apos;." severity="Major" ruleId="[WS-C061]" line="42"/>
+<RESULT name="Expected @param tag for &apos;city&apos;." severity="Major" ruleId="[WS-C061]" line="42"/>
+<RESULT name="Expected @param tag for &apos;stars&apos;." severity="Major" ruleId="[WS-C061]" line="42"/>
+<RESULT name="Type Javadoc comment is missing an @version tag." severity="Major" ruleId="[WS-C063]" line="21"/>
+<RESULT name="Parameter &apos;address&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="42"/>
+<RESULT name="Parameter &apos;stars&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="42"/>
+<RESULT name="Parameter &apos;name&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="42"/>
+<RESULT name="Parameter &apos;city&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="42"/>
+<RESULT name="Parameter &apos;address&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="59"/>
+<RESULT name="Parameter &apos;city&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="71"/>
+<RESULT name="Parameter &apos;name&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="83"/>
+<RESULT name="Parameter &apos;stars&apos; is not assigned and could be declared final[WS-P192]" severity="Major" ruleId="[WS-P192]" line="95"/>
+
+</FILE>
+</FILES>

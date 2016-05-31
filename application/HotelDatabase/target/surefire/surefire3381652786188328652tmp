@@ -1,0 +1,5 @@
+#surefire
+#Fri Mar 09 14:16:50 IST 2012
+user.dir=G\:\\Maven_Eclipse\\application\\HotelDatabase
+localRepository=G\:\\Maven_Eclipse\\apache-maven-3.0.4-bin\\apache-maven-3.0.4\\repo
+basedir=G\:\\Maven_Eclipse\\application\\HotelDatabase

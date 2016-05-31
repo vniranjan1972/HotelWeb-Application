@@ -1,0 +1,25 @@
+#surefire
+#Fri Mar 09 14:16:53 IST 2012
+testClassesDirectory=G\:\\Maven_Eclipse\\application\\HotelWebapp\\target\\test-classes
+classPathUrl.4=G\:\\Maven_Eclipse\\apache-maven-3.0.4-bin\\apache-maven-3.0.4\\repo\\javax\\servlet\\servlet-api\\2.4\\servlet-api-2.4.jar
+forkMode=once
+classPathUrl.3=G\:\\Maven_Eclipse\\application\\HotelDatabase\\target\\HotelDatabase.jar
+classPathUrl.2=G\:\\Maven_Eclipse\\apache-maven-3.0.4-bin\\apache-maven-3.0.4\\repo\\junit\\junit\\3.8.1\\junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=G\:\\Maven_Eclipse\\application\\HotelWebapp\\target\\classes
+reportsDirectory=G\:\\Maven_Eclipse\\application\\HotelWebapp\\target\\surefire-reports
+classPathUrl.0=G\:\\Maven_Eclipse\\application\\HotelWebapp\\target\\test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=G\:\\Maven_Eclipse\\application\\HotelWebapp\\src\\test\\java
+surefireClassPathUrl.1=G\:\\Maven_Eclipse\\apache-maven-3.0.4-bin\\apache-maven-3.0.4\\repo\\org\\apache\\maven\\surefire\\surefire-api\\2.10\\surefire-api-2.10.jar
+surefireClassPathUrl.0=G\:\\Maven_Eclipse\\apache-maven-3.0.4-bin\\apache-maven-3.0.4\\repo\\org\\apache\\maven\\surefire\\surefire-junit3\\2.10\\surefire-junit3-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+includes0=**/Test*.java
+childDelegation=false
