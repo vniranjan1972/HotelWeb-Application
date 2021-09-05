@@ -1,1 +1,1 @@
-![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/vniranjan1972/HotelWeb-Application/1)
+![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/vniranjan1972/HotelWeb-Application/1) ![GitHub all releases](https://img.shields.io/github/downloads/vniranjan1972/HotelWeb-Application/total)
